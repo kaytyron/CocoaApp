@@ -1,0 +1,153 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:paddingLeft="56dp"
+    android:paddingRight="56dp"
+    android:paddingTop="30dp"
+    android:background="@drawable/bg_app">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/actor"
+        android:paddingBottom="10dp"
+        android:text="COCOA APP"
+        android:textSize="15sp" />
+
+    <!--  Phone Number Entry -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/actor"
+        android:paddingBottom="25dp"
+        android:text="FARM DETAILS"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp">
+
+
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/button_shape"
+            android:elevation="3dp"
+            android:hint="Farm Location"
+            android:inputType="text"
+            android:paddingLeft="25dp"
+            android:selectAllOnFocus="false"
+            android:singleLine="false"
+            android:textColorHint="#b0b0b0"
+            android:textSize="15dp"
+            android:visibility="visible" />
+
+
+
+    </android.support.design.widget.TextInputLayout>
+
+        <!--  Phone Number Entry -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:id="@+id/input_phonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/button_shape"
+                android:elevation="3dp"
+                android:hint="Crop"
+                android:inputType="phone"
+                android:paddingLeft="25dp"
+                android:selectAllOnFocus="false"
+                android:singleLine="false"
+                android:textColorHint="#b0b0b0"
+                android:textSize="15dp"
+                android:visibility="visible" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Pincode Entry -->
+
+
+    <!-- Pincode Entry -->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/input_confirm_pincode"
+            style="@android:style/Widget.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/button_shape"
+            android:elevation="3dp"
+            android:hint="Size of Farm"
+            android:inputType="number"
+            android:paddingLeft="25dp"
+            android:selectAllOnFocus="false"
+            android:singleLine="false"
+            android:textColorHint="#b0b0b0"
+            android:textSize="15dp"
+            android:visibility="visible" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+
+        <!-- Signup Button -->
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="117dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_shape1"
+        android:elevation="5dp"
+        android:fontFamily="actor"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="ADD FARM"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="10dp"
+        android:fontFamily="@font/actor"
+        android:paddingTop="30dp"
+        android:text="Have an account? Sign In"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+
+
+</LinearLayout>
